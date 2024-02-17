@@ -1,0 +1,1 @@
+INSERT INTO students (name, last_name, email, course_id) VALUES ('Pedro','Picapiedra', 'pedropica@correosaurio.com', 1);

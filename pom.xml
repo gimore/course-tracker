@@ -10,17 +10,19 @@
         <version>3.2.2</version>
     </parent>
 
-    <groupId>co.com.gimore.courses</groupId>
-    <artifactId>ms-courses-apiGateWay</artifactId>
+    <groupId>co.com.gimore.course-track</groupId>
+    <artifactId>ms-course-track</artifactId>
     <version>1.0</version>
 
-    <name>ms-courses</name>
+    <name>ms-course-track</name>
     <packaging>pom</packaging>
 
     <modules>
         <module>ms-gateway</module>
         <module>ms-eureka</module>
         <module>ms-config</module>
+        <module>ms-student</module>
+        <module>ms-course</module>
     </modules>
 
     <properties>

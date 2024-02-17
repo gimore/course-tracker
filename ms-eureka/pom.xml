@@ -3,15 +3,15 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>co.com.gimore.courses</groupId>
-		<artifactId>ms-courses-apiGateWay</artifactId>
+		<groupId>co.com.gimore.course-track</groupId>
+		<artifactId>ms-course-track</artifactId>
 		<version>1.0</version>
 	</parent>
-	<groupId>co.com.gimore.courses.eureka</groupId>
+	<groupId>co.com.gimore.course-track.eureka</groupId>
 	<artifactId>ms-eureka</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>ms-eureka</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Microservicio server Eureka</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.0</spring-cloud.version>
