@@ -5,19 +5,9 @@ server:
 spring:
   application:
     name: ms-course
-#  datasource:
-#    driver-class-name: org.postgresql.Driver
-#    url: jdbc:postgresql://localhost:5432/coursesDb
-#    password: postgres
-#    username: postgres
-#  jpa:
-#    hibernate:
-#      ddl-auto: create
-#    database: postgresql
-#    database-platform: org.hibernate.dialect.PostgreSQLDialect
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/studentDb
+    url: jdbc:mysql://localhost:3306/course_tracker_db
     password: root
     username: root
   jpa:

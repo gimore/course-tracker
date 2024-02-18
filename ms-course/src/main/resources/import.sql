@@ -1,1 +1,1 @@
-INSERT INTO courses (name, teacher) values ('Matemáticas', 'Profesor Mateo');
+INSERT INTO course (name, description, teacher, schedule, modality) values ('SpringBoot', 'Curso de SpringBoot 3', 'Rod Johnson', 'sabado', 'Online');

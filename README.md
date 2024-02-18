@@ -1,6 +1,9 @@
-# Plataforma de educación en línea
+# Course Tracker
 
-Micro servicios para la gestión de una plataforma de educación en línea.
+Proyecto que permite llevar el control (tipo agenda) de los cursos en los que estoy
+inscrito, de diversas plataformas en línea y tomar apuntes de cada uno de ellos,
+con el fin de recordar los temas más importantes, con el método zettelkasten que 
+es una técnica de toma de apuntes.
 
 ## Arquitectura
 
@@ -13,12 +16,14 @@ Micro servicios para la gestión de una plataforma de educación en línea.
 - Gateway (Spring Cloud)
 - Config Server (Spring Cloud)
 - Config Client (Spring Cloud)
+- Feign (Spring Cloud)
 - Actuator (Spring Cloud)
+- Spring DevTools
+- Spring Configuration Processor
 - MySQL
 - JPA
 - Hibernate
 - Lombok
-- Feign (Spring Cloud)
 
 ### Diagrama de arquitectura
 <img src="projectArchitectureDiagram.png" alt="Diagrama de arquitectura">
